@@ -31,10 +31,10 @@ export default function ContactPage() {
                     </div>
                     <h3 className="font-semibold mb-2">Email</h3>
                     <a
-                      href="mailto:adedeji.holushegun@gmail.com"
+                      href="mailto:aiowtatech@gmail.com"
                       className="text-sm text-muted-foreground hover:text-primary transition-colors"
                     >
-                      adedeji.holushegun@gmail.com
+                      aiowtatech@gmail.com
                     </a>
                   </CardContent>
                 </Card>

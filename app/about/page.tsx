@@ -27,22 +27,27 @@ export default function AboutPage() {
             <div className="max-w-4xl mx-auto">
               <div className="prose prose-lg max-w-none mb-12">
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  At <b>Aiowta Tech</b> we are dedicated to empowering businesses through reliable, secure, and
+                  innovative IT solutions. With a strong foundation in networking and IT infrastructure
+                  management, we help organizations streamline operations and embrace digital transformation
+                  with confidence.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                  laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo.
+                  Our team of experienced IT professionals brings deep technical expertise and a customer-first
+                  mindset to every project. Whether it’s building resilient networks, tech refresh, service migration
+                  or providing 24/7 IT support, we tailor our services to align with your business goals.
+                </p>
+                <p className="text-muted-foreground leading-relaxed mb-6">
+                  We believe technology should be an enabler, not a challenge. That’s why we focus on delivering
+                  <b> scalable, cost-effective, and future-ready solutions</b> designed to drive growth and efficiency..
+                </p>
+                <p className="text-muted-foreground leading-relaxed mb-6">
+                  At the heart of our business are our core values: innovation, veracity, and customer success.
+                  These guide us in every interaction, ensuring that our clients not only receive exceptional service
+                  but also a trusted long-term partner in their IT journey.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                  magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-                  quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-                  labore et dolore magnam aliquam quaerat voluptatem.
+                  <b>Your success is our mission—let’s build the future of your business together.</b>
                 </p>
               </div>
 
@@ -54,7 +59,8 @@ export default function AboutPage() {
                     </div>
                     <h3 className="text-lg font-semibold mb-2">Our Mission</h3>
                     <p className="text-sm text-muted-foreground">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                      Making an impact that matters in your business through technological innovation to
+                      enhance services, growth, and customer satisfaction.
                     </p>
                   </CardContent>
                 </Card>
@@ -78,7 +84,7 @@ export default function AboutPage() {
                     </div>
                     <h3 className="text-lg font-semibold mb-2">Our Values</h3>
                     <p className="text-sm text-muted-foreground">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                      We are committed to innovation and continuous improvement by embracing new technologies, while keeping a strong customer focus through reliable, tailored IT solutions that align with business goals. Guided by veracity, we take ownership and proactively resolve client concerns, and we uphold respect by treating everyone with dignity and fairness to foster lasting partnerships.
                     </p>
                   </CardContent>
                 </Card>

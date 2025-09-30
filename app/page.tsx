@@ -4,7 +4,6 @@ import type React from "react"
 
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { ThemeSwitcher } from "@/components/theme-switcher"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Network, Server, Headphones, ArrowRight } from "lucide-react"
@@ -37,10 +36,6 @@ export default function HomePage() {
         {/* Hero Section */}
         <section className="relative py-20 md:py-32 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/10" />
-
-          <div className="absolute top-4 right-4 z-10">
-            <ThemeSwitcher />
-          </div>
 
           <div className="container mx-auto px-4 relative">
             <div className="max-w-3xl mx-auto text-center">
@@ -79,10 +74,10 @@ export default function HomePage() {
                   <div className="h-12 w-12 rounded-lg bg-primary/20 flex items-center justify-center mb-4">
                     <Network className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Networking</h3>
+                  <h3 className="text-xl font-semibold mb-2">IT Infrastructure Services</h3>
                   <p className="text-muted-foreground">
-                    Network refresh, cabling solutions, and professional rack & stack services for optimal
-                    infrastructure.
+                    Modernize your network infrastructure with the latest technology to improve performance, security,
+                    and reliability for your business operations.
                   </p>
                 </CardContent>
               </Card>
@@ -92,7 +87,7 @@ export default function HomePage() {
                   <div className="h-12 w-12 rounded-lg bg-accent/20 flex items-center justify-center mb-4">
                     <Server className="h-6 w-6 text-accent" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">IT Services</h3>
+                  <h3 className="text-xl font-semibold mb-2">General IT Services</h3>
                   <p className="text-muted-foreground">
                     Professional installation services for POS systems, computers, printers, and all your IT equipment.
                   </p>
@@ -104,7 +99,7 @@ export default function HomePage() {
                   <div className="h-12 w-12 rounded-lg bg-primary/20 flex items-center justify-center mb-4">
                     <Headphones className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Technical Support</h3>
+                  <h3 className="text-xl font-semibold mb-2">Technical Support Management</h3>
                   <p className="text-muted-foreground">
                     Reliable onsite IT support and data center services to keep your operations running 24/7.
                   </p>
